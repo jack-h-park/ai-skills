@@ -20,6 +20,16 @@ structural fix that restores a clear depth model.
 5. Recommend the smallest batch of fixes that restores one clear owner per
    seam.
 
+## Review Checklist
+
+- Depth mapping is explicit and consistent with the local depth model.
+- Container choice matches the declared depth instead of layering extra shells.
+- One container or divider owns each visible cut.
+- Workflow boundaries use real sectioning, while short-lived state changes stay
+  inside the current structure.
+- Primitive naming and placement remain consistent with the local primitive and
+  feature-boundary rules.
+
 ## Output Expectations
 
 - Name the surface reviewed.

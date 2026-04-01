@@ -25,6 +25,18 @@ whether UI, persistence, and runtime enforcement all reflect the same policy.
    - unsafe persistence
    - ambiguous managed-state UX
 
+## UX Presentation Rules
+
+- Managed settings should prefer read-only summary presentation over disabled
+  low-level controls.
+- The user should be able to identify the single managed source of truth for a
+  settings surface.
+- User-editable overrides should live in a clearly separate override zone.
+- Divergence from the managed baseline should surface as an explicit custom or
+  override state.
+- Reset should return the surface to the managed baseline and clear the custom
+  state.
+
 ## Output Expectations
 
 - Name the control reviewed.

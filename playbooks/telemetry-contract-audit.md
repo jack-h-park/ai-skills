@@ -5,6 +5,10 @@
 Use this method to verify that emitted telemetry still truthfully represents
 runtime behavior. The focus is contract correctness, not general debugging.
 
+Use the companion playbook `telemetry-operational-verification.md` when the
+task is a scenario-by-scenario verification pass rather than a semantic
+contract audit.
+
 ## Review Steps
 
 1. Identify the contract slice under review using the adapter:

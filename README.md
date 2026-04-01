@@ -43,6 +43,7 @@ project-repo/                     <- consuming project
 | `api-smoke-patterns.md` | dev | Repeatable smoke-test method for API endpoints |
 | `retrieval-trace-review.md` | dev | Retrieval trace analysis method |
 | `telemetry-contract-audit.md` | dev | Telemetry contract verification method |
+| `telemetry-operational-verification.md` | dev | Reusable operational verification checklist for telemetry semantics |
 | `admin-surface-hierarchy-audit.md` | dev | Admin UI structural depth audit method |
 | `settings-ownership-audit.md` | hybrid | Settings ownership classification and precedence audit |
 
@@ -54,6 +55,8 @@ project-repo/                     <- consuming project
 - No repo-specific names, paths, events, trace names, or UI primitive names in canonical assets.
 - Local adapters supply concrete mappings and remain in the consuming project.
 - Local wrappers stay thin and only bind canonical skill to the consuming project.
+- A checklist can be promoted if another repo could reuse the sequence with only adapter substitutions.
+- Audit results, postmortems, rollout notes, and one-off investigations do not belong in canonical assets.
 
 ## What belongs here vs in a project
 
